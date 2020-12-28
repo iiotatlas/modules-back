@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Generate Chart-PDF</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Reporte Beta</h1>
+    <div id="chart"></div>
+
+    <table>
+      <tr>
+        <th>Propiedad</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td>Qmax</td>
+        <td>234 m3/s</td>
+      </tr>
+      <tr>
+        <td>Qmin</td>
+        <td>54 m3/s</td>
+      </tr>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
